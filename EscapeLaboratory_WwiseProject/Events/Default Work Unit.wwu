@@ -1,6 +1,200 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{40E0C0A4-A52E-4921-B76C-45F09FDEF5A0}" SchemaVersion="97">
+<WwiseDocument Type="WorkUnit" ID="{5CCD8B61-62DB-4933-A688-2B86ACAE33C9}" SchemaVersion="97">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{40E0C0A4-A52E-4921-B76C-45F09FDEF5A0}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{5CCD8B61-62DB-4933-A688-2B86ACAE33C9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="AMB" ID="{A7407E8C-EF7F-4587-B4AA-B936F778ED82}" ShortID="557230110">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Play_Rain" ID="{715B0EE7-3E5E-4DDB-A177-37D0BB04DA49}">
+							<ChildrenList>
+								<Action Name="" ID="{01CED514-8C0A-4DEC-8DA4-CCCCC7F76269}" ShortID="212279559">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Rain_rnd" ID="{EB6E753E-6D12-49D3-A129-99522F42B72E}" WorkUnitID="{7972F540-86AA-41C1-84FB-AB89998A29B7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Elevator_Start" ID="{B4626641-82C6-4FD0-A52E-DD3C4B4ED5E5}">
+							<ChildrenList>
+								<Action Name="" ID="{4952AC11-1F83-4398-9A57-2AF9E4B10046}" ShortID="308191852">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Elevator_Start" ID="{4E53FA44-D390-4246-9A07-64BD89E7FE38}" WorkUnitID="{7972F540-86AA-41C1-84FB-AB89998A29B7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{0747B33F-0190-45A5-AD88-422186797C03}" ShortID="138361184">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.2"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Elevator_Move_LP" ID="{2F2D3F59-3356-48F7-AC26-C3CF5AA305B5}" WorkUnitID="{7972F540-86AA-41C1-84FB-AB89998A29B7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Door_Sas" ID="{FF5E12A3-AF13-49F2-B9DF-7BFB9F944AC3}">
+							<ChildrenList>
+								<Action Name="" ID="{C4F8A84D-7D85-40D7-A032-934991621A6F}" ShortID="346900774">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Door_Sas_01" ID="{49D9D56B-5275-455F-AFC2-1D038B908518}" WorkUnitID="{7972F540-86AA-41C1-84FB-AB89998A29B7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Elevator_Stop" ID="{B8E5DFCE-B38E-4CC0-995F-B839CEC843D5}">
+							<ChildrenList>
+								<Action Name="" ID="{E84A839A-9377-4016-9406-6049C34BE9CA}" ShortID="225331897">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Elevator_Stop" ID="{10FFABB4-1496-4F6E-B620-7E47609A6A30}" WorkUnitID="{7972F540-86AA-41C1-84FB-AB89998A29B7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2251C5ED-9054-41D3-BDD7-2738330D3AA4}" ShortID="438505082">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Elevator_Move_LP" ID="{2F2D3F59-3356-48F7-AC26-C3CF5AA305B5}" WorkUnitID="{7972F540-86AA-41C1-84FB-AB89998A29B7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Second_Elevator_Door" ID="{37BB2313-63E4-4358-A758-19A0074E85CC}">
+							<ChildrenList>
+								<Action Name="" ID="{F1C29F2D-505E-4D42-A988-0F4785738235}" ShortID="826248283">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Second_Elevator_Door" ID="{AB8C2C5F-045B-4160-A023-4363D9B5C928}" WorkUnitID="{7972F540-86AA-41C1-84FB-AB89998A29B7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_AMB_MachineClose" ID="{03FA7DF5-25E7-4577-8449-11C542344A69}">
+							<ChildrenList>
+								<Action Name="" ID="{2DFD0655-3BC4-47A4-9D23-935DBBD1E308}" ShortID="790595719">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_MachineClose_LP" ID="{E2CF0D1B-1F9A-4DE3-909F-9DD25925BAF9}" WorkUnitID="{7972F540-86AA-41C1-84FB-AB89998A29B7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_AMB_Future" ID="{FB75E6A7-3ED2-43BF-9CE0-6AC87FEB2C8D}">
+							<ChildrenList>
+								<Action Name="" ID="{0005B182-CCFF-4EE9-94F3-11F746E2A23A}" ShortID="184735650">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Future_LP" ID="{2D8E1795-9E66-46FE-85C1-BE6ED3F9B309}" WorkUnitID="{7972F540-86AA-41C1-84FB-AB89998A29B7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_AMB_ComputerRoom" ID="{B1247766-2412-4D88-80CA-363063A62E88}">
+							<ChildrenList>
+								<Action Name="" ID="{2504B2D4-5E34-443D-9F96-67993DBEB509}" ShortID="1063915234">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_ComputerRoom_LP" ID="{D22F2A69-07A1-4C59-907B-071054BF4B7D}" WorkUnitID="{7972F540-86AA-41C1-84FB-AB89998A29B7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_AMB_Computer" ID="{4CCC9E3E-B85A-4ABD-BA65-30AE80CBBA89}">
+							<ChildrenList>
+								<Action Name="" ID="{2F78F4E0-E972-4C0E-B6FA-E7F02116CAD5}" ShortID="296686115">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Computer_LP" ID="{EE8B8984-5E0C-4FB7-9AAE-3A2346321232}" WorkUnitID="{7972F540-86AA-41C1-84FB-AB89998A29B7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_AMB_WaterDispencer" ID="{0F5AA996-8AD9-4657-A36D-47910E420E82}">
+							<ChildrenList>
+								<Action Name="" ID="{D29EDC8E-FA12-4FBF-9BF4-12756E89299C}" ShortID="447269419">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_WaterDispencer_LP" ID="{91D0634E-6D4E-4519-8EA7-090DB669982C}" WorkUnitID="{7972F540-86AA-41C1-84FB-AB89998A29B7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Machine_BackGround" ID="{71508FF2-CC2F-4EEC-B072-D2AFCFF9D1C8}">
+							<ChildrenList>
+								<Action Name="" ID="{348B01CB-C601-4E15-B7EA-541F6DE9EFA8}" ShortID="35472072">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Machine_BackGround_rnd" ID="{E6DED43F-D5E0-486A-A8D3-913ECF9DEA34}" WorkUnitID="{7972F540-86AA-41C1-84FB-AB89998A29B7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Inside_Calm" ID="{4C64C4F4-F858-4FFA-9B74-805C420572C6}">
+							<ChildrenList>
+								<Action Name="" ID="{D025930F-C0C0-4ADE-B523-3BFCED4A9E48}" ShortID="279089117">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Inside_Calm_rnd" ID="{5DC445D9-3DAB-4143-A6BA-8783303C44AC}" WorkUnitID="{7972F540-86AA-41C1-84FB-AB89998A29B7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Air_Realease" ID="{8814A3D3-ED50-4ECF-968B-14DA6F4211E8}">
+							<ChildrenList>
+								<Action Name="" ID="{4893556D-077A-40D6-AB5B-AD2FE6D967B4}" ShortID="387970438">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Air_Realease_rnd" ID="{EE1CA4DD-8904-4FD6-978A-E370487536D7}" WorkUnitID="{7972F540-86AA-41C1-84FB-AB89998A29B7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="FT" ID="{B38ED835-7C0A-4D41-A147-A7EDCD8448B5}" ShortID="207328958">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Play_FT" ID="{1976BF6E-2F8D-44E9-96A2-D5AD898A5CEB}">
+							<ChildrenList>
+								<Action Name="" ID="{33A3E7C9-D9E3-454E-8B28-3926F44985C7}" ShortID="969542339">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FT_swt" ID="{98456DF4-92E9-471C-80C5-24174BE0782A}" WorkUnitID="{7972F540-86AA-41C1-84FB-AB89998A29B7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

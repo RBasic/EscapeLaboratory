@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3252347582">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="748895195" Name="None" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\FT\None"/>
+				<AuxBus Id="1160234136" Name="Normal" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\FT\Normal"/>
+				<AuxBus Id="1289942167" Name="Stairs" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\FT\Stairs"/>
+				<AuxBus Id="4284352190" Name="Large" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\FT\Large"/>
+			</IncludedAuxBusses>
+		</SoundBank>
+		<SoundBank Id="1661994096" Language="SFX" Hash="2521924385">
+			<ObjectPath>\SoundBanks\Default Work Unit\SoundBank</ObjectPath>
+			<ShortName>SoundBank</ShortName>
+			<Path>SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3058881323" Name="Play_Air_Realease" ObjectPath="\Events\Default Work Unit\AMB\Play_Air_Realease">
+					<IncludedMemoryFiles>
+						<File Id="35917016" Language="SFX">
+							<ShortName>AMB_Air_Realease_03.wav</ShortName>
+							<Path>SFX\AMB_Air_Realease_03_10C4C929.wem</Path>
+						</File>
+						<File Id="328199245" Language="SFX">
+							<ShortName>AMB_Air_Realease_08.wav</ShortName>
+							<Path>SFX\AMB_Air_Realease_08_10C4C929.wem</Path>
+						</File>
+						<File Id="437303465" Language="SFX">
+							<ShortName>AMB_Air_Realease_01.wav</ShortName>
+							<Path>SFX\AMB_Air_Realease_01_10C4C929.wem</Path>
+						</File>
+						<File Id="699006229" Language="SFX">
+							<ShortName>AMB_Air_Realease_04.wav</ShortName>
+							<Path>SFX\AMB_Air_Realease_04_10C4C929.wem</Path>
+						</File>
+						<File Id="738500786" Language="SFX">
+							<ShortName>AMB_Air_Realease_02.wav</ShortName>
+							<Path>SFX\AMB_Air_Realease_02_10C4C929.wem</Path>
+						</File>
+						<File Id="762540380" Language="SFX">
+							<ShortName>AMB_Air_Realease_06.wav</ShortName>
+							<Path>SFX\AMB_Air_Realease_06_10C4C929.wem</Path>
+						</File>
+						<File Id="850452956" Language="SFX">
+							<ShortName>AMB_Air_Realease_05.wav</ShortName>
+							<Path>SFX\AMB_Air_Realease_05_10C4C929.wem</Path>
+						</File>
+						<File Id="937348425" Language="SFX">
+							<ShortName>AMB_Air_Realease_07.wav</ShortName>
+							<Path>SFX\AMB_Air_Realease_07_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1178128302" Name="Play_AMB_Computer" ObjectPath="\Events\Default Work Unit\AMB\Play_AMB_Computer">
+					<IncludedMemoryFiles>
+						<File Id="204367848" Language="SFX">
+							<ShortName>AMB_Computer_LP.wav</ShortName>
+							<Path>SFX\AMB_Computer_LP_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1334958035" Name="Play_AMB_ComputerRoom" ObjectPath="\Events\Default Work Unit\AMB\Play_AMB_ComputerRoom">
+					<IncludedMemoryFiles>
+						<File Id="979009003" Language="SFX">
+							<ShortName>AMB_ComputerRoom_LP.wav</ShortName>
+							<Path>SFX\AMB_ComputerRoom_LP_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3240870828" Name="Play_AMB_Future" ObjectPath="\Events\Default Work Unit\AMB\Play_AMB_Future">
+					<IncludedMemoryFiles>
+						<File Id="1056226556" Language="SFX">
+							<ShortName>AMB_Future_LP.wav</ShortName>
+							<Path>SFX\AMB_Future_LP_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="600350620" Name="Play_AMB_MachineClose" ObjectPath="\Events\Default Work Unit\AMB\Play_AMB_MachineClose">
+					<IncludedMemoryFiles>
+						<File Id="949411477" Language="SFX">
+							<ShortName>AMB_MachineClose_LP_01.wav</ShortName>
+							<Path>SFX\AMB_MachineClose_LP_01_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1109285691" Name="Play_AMB_WaterDispencer" ObjectPath="\Events\Default Work Unit\AMB\Play_AMB_WaterDispencer">
+					<IncludedMemoryFiles>
+						<File Id="779595671" Language="SFX">
+							<ShortName>AMB_WaterDispencer_LP.wav</ShortName>
+							<Path>SFX\AMB_WaterDispencer_LP_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3842941372" Name="Play_Door_Sas" ObjectPath="\Events\Default Work Unit\AMB\Play_Door_Sas">
+					<IncludedMemoryFiles>
+						<File Id="542627846" Language="SFX">
+							<ShortName>Door_Sas_01.wav</ShortName>
+							<Path>SFX\Door_Sas_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2667826777" Name="Play_Elevator_Start" ObjectPath="\Events\Default Work Unit\AMB\Play_Elevator_Start">
+					<IncludedMemoryFiles>
+						<File Id="212249691" Language="SFX">
+							<ShortName>Elevator_Start.wav</ShortName>
+							<Path>SFX\Elevator_Start_10C4C929.wem</Path>
+						</File>
+						<File Id="823034310" Language="SFX">
+							<ShortName>Elevator_Move_LP.wav</ShortName>
+							<Path>SFX\Elevator_Move_LP_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="813544243" Name="Play_Elevator_Stop" ObjectPath="\Events\Default Work Unit\AMB\Play_Elevator_Stop">
+					<IncludedMemoryFiles>
+						<File Id="1068105636" Language="SFX">
+							<ShortName>Elevator_Stop.wav</ShortName>
+							<Path>SFX\Elevator_Stop_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2262856516" Name="Play_FT" ObjectPath="\Events\Default Work Unit\FT\Play_FT">
+					<IncludedMemoryFiles>
+						<File Id="4461938" Language="SFX">
+							<ShortName>FT_Concrete_03.wav</ShortName>
+							<Path>SFX\FT_Concrete_03_10C4C929.wem</Path>
+						</File>
+						<File Id="23811742" Language="SFX">
+							<ShortName>FT_Stairs_01.wav</ShortName>
+							<Path>SFX\FT_Stairs_01_10C4C929.wem</Path>
+						</File>
+						<File Id="25275275" Language="SFX">
+							<ShortName>FT_Carpet_03.wav</ShortName>
+							<Path>SFX\FT_Carpet_03_10C4C929.wem</Path>
+						</File>
+						<File Id="99269918" Language="SFX">
+							<ShortName>FT_Carpet_01.wav</ShortName>
+							<Path>SFX\FT_Carpet_01_10C4C929.wem</Path>
+						</File>
+						<File Id="113504293" Language="SFX">
+							<ShortName>FT_Stairs_02.wav</ShortName>
+							<Path>SFX\FT_Stairs_02_10C4C929.wem</Path>
+						</File>
+						<File Id="173445024" Language="SFX">
+							<ShortName>FT_Concrete_05.wav</ShortName>
+							<Path>SFX\FT_Concrete_05_10C4C929.wem</Path>
+						</File>
+						<File Id="191184049" Language="SFX">
+							<ShortName>FT_Concrete_Wet_03.wav</ShortName>
+							<Path>SFX\FT_Concrete_Wet_03_10C4C929.wem</Path>
+						</File>
+						<File Id="255820955" Language="SFX">
+							<ShortName>FT_Metal_04.wav</ShortName>
+							<Path>SFX\FT_Metal_04_10C4C929.wem</Path>
+						</File>
+						<File Id="283443247" Language="SFX">
+							<ShortName>FT_Concrete_Wet_02.wav</ShortName>
+							<Path>SFX\FT_Concrete_Wet_02_10C4C929.wem</Path>
+						</File>
+						<File Id="313940059" Language="SFX">
+							<ShortName>FT_Concrete_Wet_05.wav</ShortName>
+							<Path>SFX\FT_Concrete_Wet_05_10C4C929.wem</Path>
+						</File>
+						<File Id="314480864" Language="SFX">
+							<ShortName>FT_Carpet_04.wav</ShortName>
+							<Path>SFX\FT_Carpet_04_10C4C929.wem</Path>
+						</File>
+						<File Id="342211652" Language="SFX">
+							<ShortName>FT_Metal_01.wav</ShortName>
+							<Path>SFX\FT_Metal_01_10C4C929.wem</Path>
+						</File>
+						<File Id="357229847" Language="SFX">
+							<ShortName>FT_Metal_03.wav</ShortName>
+							<Path>SFX\FT_Metal_03_10C4C929.wem</Path>
+						</File>
+						<File Id="391434519" Language="SFX">
+							<ShortName>FT_Stairs_05.wav</ShortName>
+							<Path>SFX\FT_Stairs_05_10C4C929.wem</Path>
+						</File>
+						<File Id="521315272" Language="SFX">
+							<ShortName>FT_Concrete_04.wav</ShortName>
+							<Path>SFX\FT_Concrete_04_10C4C929.wem</Path>
+						</File>
+						<File Id="647948376" Language="SFX">
+							<ShortName>FT_Stairs_04.wav</ShortName>
+							<Path>SFX\FT_Stairs_04_10C4C929.wem</Path>
+						</File>
+						<File Id="651666800" Language="SFX">
+							<ShortName>FT_Concrete_Wet_01.wav</ShortName>
+							<Path>SFX\FT_Concrete_Wet_01_10C4C929.wem</Path>
+						</File>
+						<File Id="724968615" Language="SFX">
+							<ShortName>FT_Concrete_Wet_04.wav</ShortName>
+							<Path>SFX\FT_Concrete_Wet_04_10C4C929.wem</Path>
+						</File>
+						<File Id="739786208" Language="SFX">
+							<ShortName>FT_Carpet_06.wav</ShortName>
+							<Path>SFX\FT_Carpet_06_10C4C929.wem</Path>
+						</File>
+						<File Id="808798994" Language="SFX">
+							<ShortName>FT_Concrete_06.wav</ShortName>
+							<Path>SFX\FT_Concrete_06_10C4C929.wem</Path>
+						</File>
+						<File Id="818398492" Language="SFX">
+							<ShortName>FT_Concrete_01.wav</ShortName>
+							<Path>SFX\FT_Concrete_01_10C4C929.wem</Path>
+						</File>
+						<File Id="914376128" Language="SFX">
+							<ShortName>FT_Metal_02.wav</ShortName>
+							<Path>SFX\FT_Metal_02_10C4C929.wem</Path>
+						</File>
+						<File Id="986089479" Language="SFX">
+							<ShortName>FT_Carpet_05.wav</ShortName>
+							<Path>SFX\FT_Carpet_05_10C4C929.wem</Path>
+						</File>
+						<File Id="1016134084" Language="SFX">
+							<ShortName>FT_Stairs_03.wav</ShortName>
+							<Path>SFX\FT_Stairs_03_10C4C929.wem</Path>
+						</File>
+						<File Id="1023859077" Language="SFX">
+							<ShortName>FT_Concrete_Wet_06.wav</ShortName>
+							<Path>SFX\FT_Concrete_Wet_06_10C4C929.wem</Path>
+						</File>
+						<File Id="1035180443" Language="SFX">
+							<ShortName>FT_Carpet_02.wav</ShortName>
+							<Path>SFX\FT_Carpet_02_10C4C929.wem</Path>
+						</File>
+						<File Id="1059581334" Language="SFX">
+							<ShortName>FT_Concrete_02.wav</ShortName>
+							<Path>SFX\FT_Concrete_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{DEC7FC93-8671-487D-B493-1BF4C6389383}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{99791BF4-384D-4342-B592-7D1FFD6FC20C}">
+							<Children>
+								<SwitchContainer SwitchValue="{EE6B12A0-5AB2-431D-9F39-D8B519B10D97}">
+									<Media>
+										<File Id="255820955"/>
+										<File Id="342211652"/>
+										<File Id="357229847"/>
+										<File Id="914376128"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{0D11E9E9-62FD-4F77-876C-F0F4D8BA8343}">
+									<Media>
+										<File Id="191184049"/>
+										<File Id="283443247"/>
+										<File Id="313940059"/>
+										<File Id="651666800"/>
+										<File Id="724968615"/>
+										<File Id="1023859077"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{46AF4EEC-B9E5-45A9-B6F3-12A03CE5E9FE}">
+									<Media>
+										<File Id="23811742"/>
+										<File Id="113504293"/>
+										<File Id="391434519"/>
+										<File Id="647948376"/>
+										<File Id="1016134084"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{A7268D70-7832-4A32-924B-B6957AE787B7}">
+									<Media>
+										<File Id="25275275"/>
+										<File Id="99269918"/>
+										<File Id="314480864"/>
+										<File Id="739786208"/>
+										<File Id="986089479"/>
+										<File Id="1035180443"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{99ED9825-84F2-4A5D-9449-47D8D08C4D6A}">
+									<Media>
+										<File Id="4461938"/>
+										<File Id="173445024"/>
+										<File Id="521315272"/>
+										<File Id="808798994"/>
+										<File Id="818398492"/>
+										<File Id="1059581334"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{C146CBC8-845B-4953-B72D-A8458F883FD8}">
+							<DefaultSwitchValue>{99ED9825-84F2-4A5D-9449-47D8D08C4D6A}</DefaultSwitchValue>
+							<Children>
+								<SwitchContainer SwitchValue="{EE6B12A0-5AB2-431D-9F39-D8B519B10D97}">
+									<Media>
+										<File Id="255820955"/>
+										<File Id="342211652"/>
+										<File Id="357229847"/>
+										<File Id="914376128"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{0D11E9E9-62FD-4F77-876C-F0F4D8BA8343}">
+									<Media>
+										<File Id="191184049"/>
+										<File Id="283443247"/>
+										<File Id="313940059"/>
+										<File Id="651666800"/>
+										<File Id="724968615"/>
+										<File Id="1023859077"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{46AF4EEC-B9E5-45A9-B6F3-12A03CE5E9FE}">
+									<Media>
+										<File Id="23811742"/>
+										<File Id="113504293"/>
+										<File Id="391434519"/>
+										<File Id="647948376"/>
+										<File Id="1016134084"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{A7268D70-7832-4A32-924B-B6957AE787B7}">
+									<Media>
+										<File Id="25275275"/>
+										<File Id="99269918"/>
+										<File Id="314480864"/>
+										<File Id="739786208"/>
+										<File Id="986089479"/>
+										<File Id="1035180443"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{99ED9825-84F2-4A5D-9449-47D8D08C4D6A}">
+									<Media>
+										<File Id="4461938"/>
+										<File Id="173445024"/>
+										<File Id="521315272"/>
+										<File Id="808798994"/>
+										<File Id="818398492"/>
+										<File Id="1059581334"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A6F11076-D518-424B-86C8-04A0E6B97D2E}">
+							<Children>
+								<SwitchContainer SwitchValue="{EE6B12A0-5AB2-431D-9F39-D8B519B10D97}">
+									<Media>
+										<File Id="255820955"/>
+										<File Id="342211652"/>
+										<File Id="357229847"/>
+										<File Id="914376128"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{0D11E9E9-62FD-4F77-876C-F0F4D8BA8343}">
+									<Media>
+										<File Id="191184049"/>
+										<File Id="283443247"/>
+										<File Id="313940059"/>
+										<File Id="651666800"/>
+										<File Id="724968615"/>
+										<File Id="1023859077"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{46AF4EEC-B9E5-45A9-B6F3-12A03CE5E9FE}">
+									<Media>
+										<File Id="23811742"/>
+										<File Id="113504293"/>
+										<File Id="391434519"/>
+										<File Id="647948376"/>
+										<File Id="1016134084"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{A7268D70-7832-4A32-924B-B6957AE787B7}">
+									<Media>
+										<File Id="25275275"/>
+										<File Id="99269918"/>
+										<File Id="314480864"/>
+										<File Id="739786208"/>
+										<File Id="986089479"/>
+										<File Id="1035180443"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{99ED9825-84F2-4A5D-9449-47D8D08C4D6A}">
+									<Media>
+										<File Id="4461938"/>
+										<File Id="173445024"/>
+										<File Id="521315272"/>
+										<File Id="808798994"/>
+										<File Id="818398492"/>
+										<File Id="1059581334"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{DEC7FC93-8671-487D-B493-1BF4C6389383}">
+							<DefaultSwitchValue>{99ED9825-84F2-4A5D-9449-47D8D08C4D6A}</DefaultSwitchValue>
+							<Children>
+								<SwitchContainer SwitchValue="{EE6B12A0-5AB2-431D-9F39-D8B519B10D97}">
+									<Media>
+										<File Id="255820955"/>
+										<File Id="342211652"/>
+										<File Id="357229847"/>
+										<File Id="914376128"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{0D11E9E9-62FD-4F77-876C-F0F4D8BA8343}">
+									<Media>
+										<File Id="191184049"/>
+										<File Id="283443247"/>
+										<File Id="313940059"/>
+										<File Id="651666800"/>
+										<File Id="724968615"/>
+										<File Id="1023859077"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{46AF4EEC-B9E5-45A9-B6F3-12A03CE5E9FE}">
+									<Media>
+										<File Id="23811742"/>
+										<File Id="113504293"/>
+										<File Id="391434519"/>
+										<File Id="647948376"/>
+										<File Id="1016134084"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{A7268D70-7832-4A32-924B-B6957AE787B7}">
+									<Media>
+										<File Id="25275275"/>
+										<File Id="99269918"/>
+										<File Id="314480864"/>
+										<File Id="739786208"/>
+										<File Id="986089479"/>
+										<File Id="1035180443"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{99ED9825-84F2-4A5D-9449-47D8D08C4D6A}">
+									<Media>
+										<File Id="4461938"/>
+										<File Id="173445024"/>
+										<File Id="521315272"/>
+										<File Id="808798994"/>
+										<File Id="818398492"/>
+										<File Id="1059581334"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+					<AuxBusSends>
+						<AuxBus Id="1160234136" Name="Normal" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\FT\Normal"/>
+						<AuxBus Id="1289942167" Name="Stairs" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\FT\Stairs"/>
+						<AuxBus Id="4284352190" Name="Large" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\FT\Large"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3625982748" Name="Play_Inside_Calm" ObjectPath="\Events\Default Work Unit\AMB\Play_Inside_Calm">
+					<IncludedMemoryFiles>
+						<File Id="378914236" Language="SFX">
+							<ShortName>AMB_Inside_Calm_LP_01.wav</ShortName>
+							<Path>SFX\AMB_Inside_Calm_LP_01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="381068700" Language="SFX">
+							<ShortName>AMB_Inside_Calm_LP_02.wav</ShortName>
+							<Path>SFX\AMB_Inside_Calm_LP_02_D79FB2B7.wem</Path>
+						</File>
+						<File Id="479172049" Language="SFX">
+							<ShortName>AMB_Inside_Calm_LP_03.wav</ShortName>
+							<Path>SFX\AMB_Inside_Calm_LP_03_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="904834108" Name="Play_Machine_BackGround" ObjectPath="\Events\Default Work Unit\AMB\Play_Machine_BackGround">
+					<IncludedMemoryFiles>
+						<File Id="104657601" Language="SFX">
+							<ShortName>AMB_MachineBackGround_LP_03.wav</ShortName>
+							<Path>SFX\AMB_MachineBackGround_LP_03_D79FB2B7.wem</Path>
+						</File>
+						<File Id="733295200" Language="SFX">
+							<ShortName>AMB_MachineBackGround_LP_02.wav</ShortName>
+							<Path>SFX\AMB_MachineBackGround_LP_02_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1044014734" Language="SFX">
+							<ShortName>AMB_MachineBackGround_LP_01.wav</ShortName>
+							<Path>SFX\AMB_MachineBackGround_LP_01_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2838936948" Name="Play_Rain" ObjectPath="\Events\Default Work Unit\AMB\Play_Rain">
+					<IncludedMemoryFiles>
+						<File Id="585339072" Language="SFX">
+							<ShortName>AMB_Rain_LP_03.wav</ShortName>
+							<Path>SFX\AMB_Rain_LP_03_D79FB2B7.wem</Path>
+						</File>
+						<File Id="732617921" Language="SFX">
+							<ShortName>AMB_Rain_LP_02.wav</ShortName>
+							<Path>SFX\AMB_Rain_LP_02_D79FB2B7.wem</Path>
+						</File>
+						<File Id="745389855" Language="SFX">
+							<ShortName>AMB_Rain_LP_01.wav</ShortName>
+							<Path>SFX\AMB_Rain_LP_01_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1716738710" Name="Play_Second_Elevator_Door" ObjectPath="\Events\Default Work Unit\AMB\Play_Second_Elevator_Door">
+					<IncludedMemoryFiles>
+						<File Id="1036736941" Language="SFX">
+							<ShortName>Second_Elevator_Door.wav</ShortName>
+							<Path>SFX\Second_Elevator_Door_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<SwitchGroups>
+				<SwitchGroup Id="348963605" Name="Reverb" ObjectPath="\Switches\Default Work Unit\Reverb">
+					<Switches>
+						<Switch Id="1160234136" Name="Normal" ObjectPath="\Switches\Default Work Unit\Reverb\Normal"/>
+						<Switch Id="4284352190" Name="Large" ObjectPath="\Switches\Default Work Unit\Reverb\Large"/>
+						<Switch Id="1289942167" Name="Stairs" ObjectPath="\Switches\Default Work Unit\Reverb\Stairs"/>
+						<Switch Id="1668749452" Name="No" ObjectPath="\Switches\Default Work Unit\Reverb\No"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="1802970383" Name="FT" ObjectPath="\Switches\Default Work Unit\FT">
+					<Switches>
+						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\FT\Metal"/>
+						<Switch Id="2412606308" Name="Carpet" ObjectPath="\Switches\Default Work Unit\FT\Carpet"/>
+						<Switch Id="841620460" Name="Concrete" ObjectPath="\Switches\Default Work Unit\FT\Concrete"/>
+						<Switch Id="1636252113" Name="Concrete_Wet" ObjectPath="\Switches\Default Work Unit\FT\Concrete_Wet"/>
+						<Switch Id="1289942167" Name="Stairs" ObjectPath="\Switches\Default Work Unit\FT\Stairs"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

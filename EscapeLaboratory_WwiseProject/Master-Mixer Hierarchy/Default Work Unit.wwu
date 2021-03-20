@@ -1,14 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{71492F44-1425-4DAC-9038-CA7F39CAD3F3}" SchemaVersion="97">
+<WwiseDocument Type="WorkUnit" ID="{0EAFFB9E-5857-43AC-8FFB-D7932462DA62}" SchemaVersion="97">
 	<Busses>
-		<WorkUnit Name="Default Work Unit" ID="{71492F44-1425-4DAC-9038-CA7F39CAD3F3}" PersistMode="Standalone">
+		<WorkUnit Name="Default Work Unit" ID="{0EAFFB9E-5857-43AC-8FFB-D7932462DA62}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
 					<ReferenceList>
 						<Reference Name="AudioDevice">
-							<ObjectRef Name="System" ID="{AC3A64EF-5346-4F17-8B47-32C5FFEB5C14}" WorkUnitID="{9D64413E-F9D5-421B-9521-5AB3EA30B8D0}"/>
+							<ObjectRef Name="System" ID="{835705BC-329E-4C9E-8D60-834CBF038332}" WorkUnitID="{54042A1C-8D44-4793-84BB-888A190C84DE}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="AMB" ID="{F8F7D24B-7BEF-40FA-9BBB-1274634E7653}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="4"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Bus>
+						<Bus Name="FT" ID="{3C7C8F3B-1A62-4DFA-A0C6-3D5D9E333684}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="10"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<AuxBus Name="Large" ID="{A5982FAA-E9EF-4B83-8C85-4055C1F37357}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Hall_Large" ID="{6D154498-FF6D-4823-96FC-56841B70E079}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+								<AuxBus Name="Normal" ID="{551BAAE4-E86E-4F64-B86B-8126B4DD6E0D}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Room_Large" ID="{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+								<AuxBus Name="Stairs" ID="{1E8D022F-C3F4-4CA6-BB11-A212C0746390}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Hall_Large_Bright" ID="{CB602948-2D1D-4977-A8D5-378184293E80}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+								<AuxBus Name="None" ID="{DCF6E014-84CE-4890-8E15-36E3AE96D516}"/>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

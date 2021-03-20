@@ -1,0 +1,90 @@
+Event	ID	Name			Wwise Object Path	Notes
+	600350620	Play_AMB_MachineClose			\Default Work Unit\AMB\Play_AMB_MachineClose	
+	813544243	Play_Elevator_Stop			\Default Work Unit\AMB\Play_Elevator_Stop	
+	904834108	Play_Machine_BackGround			\Default Work Unit\AMB\Play_Machine_BackGround	
+	1109285691	Play_AMB_WaterDispencer			\Default Work Unit\AMB\Play_AMB_WaterDispencer	
+	1178128302	Play_AMB_Computer			\Default Work Unit\AMB\Play_AMB_Computer	
+	1334958035	Play_AMB_ComputerRoom			\Default Work Unit\AMB\Play_AMB_ComputerRoom	
+	1716738710	Play_Second_Elevator_Door			\Default Work Unit\AMB\Play_Second_Elevator_Door	
+	2262856516	Play_FT			\Default Work Unit\FT\Play_FT	
+	2667826777	Play_Elevator_Start			\Default Work Unit\AMB\Play_Elevator_Start	
+	2838936948	Play_Rain			\Default Work Unit\AMB\Play_Rain	
+	3058881323	Play_Air_Realease			\Default Work Unit\AMB\Play_Air_Realease	
+	3240870828	Play_AMB_Future			\Default Work Unit\AMB\Play_AMB_Future	
+	3625982748	Play_Inside_Calm			\Default Work Unit\AMB\Play_Inside_Calm	
+	3842941372	Play_Door_Sas			\Default Work Unit\AMB\Play_Door_Sas	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	348963605	Reverb			\Default Work Unit\Reverb	
+	1802970383	FT			\Default Work Unit\FT	
+
+Switch	ID	Name	Switch Group			Notes
+	1160234136	Normal	Reverb			
+	1289942167	Stairs	Reverb			
+	1668749452	No	Reverb			
+	4284352190	Large	Reverb			
+	841620460	Concrete	FT			
+	1289942167	Stairs	FT			
+	1636252113	Concrete_Wet	FT			
+	2412606308	Carpet	FT			
+	2473969246	Metal	FT			
+
+Effect plug-ins	ID	Name	Type				Notes
+	2513915904	Hall_Large	Wwise RoomVerb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	4461938	FT_Concrete_03	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\FT_Concrete_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FT\FT_AM\FT_swt\FT_Rvb_Normal_swt\FT_Concrete_rnd\FT_Concrete_03		209292
+	23811742	FT_Stairs_01	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\FT_Stairs_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FT\FT_AM\FT_swt\FT_Rvb_Normal_swt\FT_Stairs_rnd\FT_Stairs_01		218800
+	25275275	FT_Carpet_03	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\FT_Carpet_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FT\FT_AM\FT_swt\FT_Rvb_Normal_swt\FT_Carpet_rnd\FT_Carpet_03		204688
+	35917016	AMB_Air_Realease_03	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\AMB_Air_Realease_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_AM\Element\Air_Realease_rnd\AMB_Air_Realease_03		441064
+	99269918	FT_Carpet_01	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\FT_Carpet_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FT\FT_AM\FT_swt\FT_Rvb_Normal_swt\FT_Carpet_rnd\FT_Carpet_01		202924
+	104657601	AMB_MachineBackGround_LP_03	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\AMB_MachineBackGround_LP_03_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_AM\Room\Machine_BackGround_rnd\AMB_MachineBackGround_LP_03		970264
+	113504293	FT_Stairs_02	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\FT_Stairs_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FT\FT_AM\FT_swt\FT_Rvb_Normal_swt\FT_Stairs_rnd\FT_Stairs_02		222328
+	173445024	FT_Concrete_05	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\FT_Concrete_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FT\FT_AM\FT_swt\FT_Rvb_Normal_swt\FT_Concrete_rnd\FT_Concrete_05		206700
+	191184049	FT_Concrete_Wet_03	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\FT_Concrete_Wet_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FT\FT_AM\FT_swt\FT_Rvb_Normal_swt\FT_Concrete_Wet_rnd\FT_Concrete_Wet_03		264664
+	204367848	AMB_Computer_LP	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\AMB_Computer_LP_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_AM\Element\AMB_Computer_LP		617464
+	212249691	Elevator_Start	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\Elevator_Start_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_AM\Element\Elevator_Start		352864
+	255820955	FT_Metal_04	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\FT_Metal_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FT\FT_AM\FT_swt\FT_Rvb_Normal_swt\FT_Metal_rnd\FT_Metal_04		270048
+	283443247	FT_Concrete_Wet_02	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\FT_Concrete_Wet_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FT\FT_AM\FT_swt\FT_Rvb_Normal_swt\FT_Concrete_Wet_rnd\FT_Concrete_Wet_02		264664
+	313940059	FT_Concrete_Wet_05	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\FT_Concrete_Wet_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FT\FT_AM\FT_swt\FT_Rvb_Normal_swt\FT_Concrete_Wet_rnd\FT_Concrete_Wet_05		264664
+	314480864	FT_Carpet_04	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\FT_Carpet_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FT\FT_AM\FT_swt\FT_Rvb_Normal_swt\FT_Carpet_rnd\FT_Carpet_04		211744
+	328199245	AMB_Air_Realease_08	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\AMB_Air_Realease_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_AM\Element\Air_Realease_rnd\AMB_Air_Realease_08		529264
+	342211652	FT_Metal_01	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\FT_Metal_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FT\FT_AM\FT_swt\FT_Rvb_Normal_swt\FT_Metal_rnd\FT_Metal_01		287764
+	357229847	FT_Metal_03	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\FT_Metal_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FT\FT_AM\FT_swt\FT_Rvb_Normal_swt\FT_Metal_rnd\FT_Metal_03		299956
+	378914236	AMB_Inside_Calm_LP_01	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\AMB_Inside_Calm_LP_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_AM\Room\Inside_Calm_rnd\AMB_Inside_Calm_LP_01		4233664
+	381068700	AMB_Inside_Calm_LP_02	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\AMB_Inside_Calm_LP_02_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_AM\Room\Inside_Calm_rnd\AMB_Inside_Calm_LP_02		4586464
+	391434519	FT_Stairs_05	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\FT_Stairs_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FT\FT_AM\FT_swt\FT_Rvb_Normal_swt\FT_Stairs_rnd\FT_Stairs_05		218800
+	437303465	AMB_Air_Realease_01	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\AMB_Air_Realease_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_AM\Element\Air_Realease_rnd\AMB_Air_Realease_01		617464
+	479172049	AMB_Inside_Calm_LP_03	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\AMB_Inside_Calm_LP_03_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_AM\Room\Inside_Calm_rnd\AMB_Inside_Calm_LP_03		4939264
+	521315272	FT_Concrete_04	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\FT_Concrete_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FT\FT_AM\FT_swt\FT_Rvb_Normal_swt\FT_Concrete_rnd\FT_Concrete_04		215444
+	542627846	Door_Sas_01	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\Door_Sas_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_AM\Element\Door_Sas_01		598044
+	585339072	AMB_Rain_LP_03	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\AMB_Rain_LP_03_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_AM\Room\Rain_rnd\AMB_Rain_LP_03		1764064
+	647948376	FT_Stairs_04	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\FT_Stairs_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FT\FT_AM\FT_swt\FT_Rvb_Normal_swt\FT_Stairs_rnd\FT_Stairs_04		218800
+	651666800	FT_Concrete_Wet_01	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\FT_Concrete_Wet_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FT\FT_AM\FT_swt\FT_Rvb_Normal_swt\FT_Concrete_Wet_rnd\FT_Concrete_Wet_01		264664
+	699006229	AMB_Air_Realease_04	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\AMB_Air_Realease_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_AM\Element\Air_Realease_rnd\AMB_Air_Realease_04		617464
+	724968615	FT_Concrete_Wet_04	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\FT_Concrete_Wet_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FT\FT_AM\FT_swt\FT_Rvb_Normal_swt\FT_Concrete_Wet_rnd\FT_Concrete_Wet_04		264664
+	732617921	AMB_Rain_LP_02	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\AMB_Rain_LP_02_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_AM\Room\Rain_rnd\AMB_Rain_LP_02		2646064
+	733295200	AMB_MachineBackGround_LP_02	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\AMB_MachineBackGround_LP_02_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_AM\Room\Machine_BackGround_rnd\AMB_MachineBackGround_LP_02		793864
+	738500786	AMB_Air_Realease_02	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\AMB_Air_Realease_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_AM\Element\Air_Realease_rnd\AMB_Air_Realease_02		441064
+	739786208	FT_Carpet_06	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\FT_Carpet_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FT\FT_AM\FT_swt\FT_Rvb_Normal_swt\FT_Carpet_rnd\FT_Carpet_06		208216
+	745389855	AMB_Rain_LP_01	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\AMB_Rain_LP_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_AM\Room\Rain_rnd\AMB_Rain_LP_01		1764064
+	762540380	AMB_Air_Realease_06	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\AMB_Air_Realease_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_AM\Element\Air_Realease_rnd\AMB_Air_Realease_06		970264
+	779595671	AMB_WaterDispencer_LP	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\AMB_WaterDispencer_LP_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_AM\Element\AMB_WaterDispencer_LP		1146664
+	808798994	FT_Concrete_06	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\FT_Concrete_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FT\FT_AM\FT_swt\FT_Rvb_Normal_swt\FT_Concrete_rnd\FT_Concrete_06		217816
+	818398492	FT_Concrete_01	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\FT_Concrete_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FT\FT_AM\FT_swt\FT_Rvb_Normal_swt\FT_Concrete_rnd\FT_Concrete_01		221820
+	823034310	Elevator_Move_LP	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\Elevator_Move_LP_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_AM\Element\Elevator_Move_LP		970264
+	850452956	AMB_Air_Realease_05	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\AMB_Air_Realease_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_AM\Element\Air_Realease_rnd\AMB_Air_Realease_05		441064
+	914376128	FT_Metal_02	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\FT_Metal_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FT\FT_AM\FT_swt\FT_Rvb_Normal_swt\FT_Metal_rnd\FT_Metal_02		292620
+	937348425	AMB_Air_Realease_07	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\AMB_Air_Realease_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_AM\Element\Air_Realease_rnd\AMB_Air_Realease_07		1411264
+	949411477	AMB_MachineClose_LP	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\AMB_MachineClose_LP_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_AM\Element\AMB_MachineClose_LP		793864
+	979009003	AMB_ComputerRoom_LP	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\AMB_ComputerRoom_LP_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_AM\Room\AMB_ComputerRoom_LP		1587664
+	986089479	FT_Carpet_05	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\FT_Carpet_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FT\FT_AM\FT_swt\FT_Rvb_Normal_swt\FT_Carpet_rnd\FT_Carpet_05		208216
+	1016134084	FT_Stairs_03	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\FT_Stairs_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FT\FT_AM\FT_swt\FT_Rvb_Normal_swt\FT_Stairs_rnd\FT_Stairs_03		224092
+	1023859077	FT_Concrete_Wet_06	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\FT_Concrete_Wet_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FT\FT_AM\FT_swt\FT_Rvb_Normal_swt\FT_Concrete_Wet_rnd\FT_Concrete_Wet_06		286488
+	1035180443	FT_Carpet_02	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\FT_Carpet_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FT\FT_AM\FT_swt\FT_Rvb_Normal_swt\FT_Carpet_rnd\FT_Carpet_02		209980
+	1036736941	Second_Elevator_Door	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\Second_Elevator_Door_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_AM\Element\Second_Elevator_Door		529264
+	1044014734	AMB_MachineBackGround_LP_01	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\AMB_MachineBackGround_LP_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_AM\Room\Machine_BackGround_rnd\AMB_MachineBackGround_LP_01		705664
+	1056226556	AMB_Future_LP	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\AMB_Future_LP_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_AM\Room\AMB_Future_LP		882064
+	1059581334	FT_Concrete_02	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\FT_Concrete_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\FT\FT_AM\FT_swt\FT_Rvb_Normal_swt\FT_Concrete_rnd\FT_Concrete_02		205624
+	1068105636	Elevator_Stop	C:\Users\rcham\Documents\Unreal Projects\EscapeLaboratory\EscapeLaboratory_WwiseProject\.cache\Windows\SFX\Elevator_Stop_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AMB\AMB_AM\Element\Elevator_Stop		441064
+
